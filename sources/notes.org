@@ -391,7 +391,7 @@ Now, take three vectors $x,y, z\in \R^2$ (it's easy to generalize to $\R^n)$. Th
 3. $D( (1,0), (0,1)) = 1$.
 These properties are entirely natural. The first property means that stretching vectors and stacking parallelograms result in stretching and adding areas.
 The second says that the area of a parallelogram spanned by two parallel vectors is zero. The third specifies that the area of the unit square is 1. Now it can be proven that there exists just one function $D$ that satisfies these properties, and that is the determinant. Moreover, it can be shown that the second property can be replaced by
-- /skew-symmetry/: $D(x,y) = - D(x,y)$.
+- /skew-symmetry/: $D(x,y) = - D(y,x)$.
 (Note that $D(x,x) = -D(x,x) \implies 2 D(x,x) = 0 \implies D(x,x) = 0$.)
 Let us use the properties to compute the area of a parallelogram spanned by the vectors $(a,b)$ and $(c,d)$. Then
 \begin{align*}
